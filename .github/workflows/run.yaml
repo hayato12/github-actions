@@ -2,6 +2,6 @@ name: lean-github-actions
 on: [push]
 jobs:
   check-bats-version:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - run: echo "Hello github actions!"
